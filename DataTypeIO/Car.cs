@@ -17,7 +17,7 @@ namespace DataTypeIO
         //-------end--------
 
         // when constructor calling a constructor that is constructor chaining
-        // and in a class constructor More than one it's called constructor over loading
+        // and in a class constructor is More than one it's called constructor over loading
 
         public Car(int fuel, string key)
         {
@@ -34,9 +34,6 @@ namespace DataTypeIO
             this.Driver = driver;
             Console.WriteLine(this.Fuel + "," + this.Key+","+this.Driver);
         }
-
-
-
 
     }
 }
